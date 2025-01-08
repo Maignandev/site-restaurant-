@@ -1,0 +1,113 @@
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #f0ad4e;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+/* Section principale */
+main {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Liste du menu */
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li {
+    background-color: #f0ad4e;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Formulaire de contact */
+form {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c9302c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}nav a:hover {
+    color: #ffcc00;  /* Change la couleur des liens au survol */
+    text-decoration: underline;  /* Ajoute une ligne sous le texte */
+}/* Quand l'écran est plus petit que 600px (mobiles) */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 1rem;
+    }
+    nav {
+        font-size: 14px;
+    }
+    main {
+        padding: 1rem;
+    }
+    form {
+        width: 100%;
+    }
+}
